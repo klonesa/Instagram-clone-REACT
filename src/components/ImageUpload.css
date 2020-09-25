@@ -1,0 +1,14 @@
+.imageUpload {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 400px;
+	margin: 5px;
+}
+.imageUpload > * {
+	margin: 10px;
+	width: 100%;
+}
+.imageUpload > button {
+	margin-left: 9px;
+}
