@@ -213,6 +213,9 @@ function App() {
 				</a>
 				{user ? (
 					<div className="app__userContainer">
+						<h3>
+							Welcome <strong>{user?.displayName}</strong>
+						</h3>
 						<Button
 							variant="contained"
 							color="secondary"
